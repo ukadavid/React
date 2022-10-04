@@ -51,9 +51,9 @@ for (let i = 1; i<=10; i++){
 }
 
 function letterFinder (word, match){
-    for (i = 0; i <= word; i++){
+    for (let i = 0; i <= word; i++){
         word[i]
-        if (word[i] == match){
+        if (word[i] === match){
             console.log('Found the', match, 'at', i)
         }else{
             console.log('---No match found at', i)
